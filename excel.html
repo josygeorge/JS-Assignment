@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>JS Assignment - Josy George</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="title">Excel Functions</h2>
+        <form id="excel-form" name="excelForm">
+            <label for="numbers">Enter your numbers separated by spaces:</label>
+            <input type="text" id="numbers" title="Please input your numbers with spaces">
+
+            <p>Select a function:</p>
+
+            <input type="radio" id="autosum" name="mathOperation" checked>
+            <label for="autosum">AutoSum</label><br>
+            <input type="radio" id="average" name="mathOperation">
+            <label for="average">Average</label><br>
+            <input type="radio" id="max" name="mathOperation">
+            <label for="max">Max</label><br>
+            <input type="radio" id="min" name="mathOperation">
+            <label for="min">Min</label>
+            <br>
+
+            <button id="calc-btn" onclick="findResult();">Calculate</button>
+        </form>
+        <!-- The result which is the output of this function -->
+        <div id="user-info-result"></div>
+    </main>
+    <footer>
+        <p>Canadian Business College - JavaScript Final Assignment - Josy George</p>
+    </footer>
+    <!-- JS file -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>JS Assignment - Josy George</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="membership-form" name="membershipForm">
+            <fieldset>
+                <legend>
+                    <h3>Membership Form</h3>
+                </legend>
+                <div>
+                    First Name:*
+                    <input type="text" id="first-name" aria-required="true" maxlength="25" autocomplete="off"
+                        name="firstName" placeholder="First Name">
+                </div>
+                <div>
+                    Last Name:*
+                    <input type="text" id="last-name" maxlength="25" autocomplete="off" name="lastName"
+                        placeholder="Last Name">
+                </div>
+                <div>
+                    Email:
+                    <input type="email" id="email" maxlength="40" name="email" autocomplete="off"
+                        placeholder="info@example.com">
+                </div>
+                <div>
+                    Address:
+                    <input type="text" id="address" maxlength="150" name="address" autocomplete="off"
+                        placeholder="11, Maple Dr.">
+                </div>
+                <div>
+                    City:
+                    <input type="text" id="city" maxlength="20" name="city" autocomplete="off" placeholder="Toronto">
+                </div>
+                <div>
+                    Province:
+                    <input type="text" id="province" maxlength="10" name="province" autocomplete="off"
+                        placeholder="Ontario">
+                </div>
+                <div class="membership-select-area">
+                    <h5>Select a Membership:</h5>
+                    <input type="radio" id="premium" name="membership" value="Premium" checked>
+                    <label for="premium">Premium Membership</label><br>
+                    <input type="radio" id="standard" name="membership" value="Standard">
+                    <label for="standard">Standard Membership</label><br>
+                    <input type="radio" id="basic" name="membership" value="Basic">
+                    <label for="basic">Basic Membership</label>
+                </div>
+            </fieldset>
+            <div>
+                <input type="button" value="Send" onclick="userForm();">
+                <input type="reset" id="resetBtn" value="Cancel">
+            </div>
+        </form>
+        <!-- The result which is the output of this function -->
+        <div id="user-info-result"></div>
+    </main>
+    <footer>
+        <p>Canadian Business College - JavaScript Final Assignment - Josy George</p>
+    </footer>
+
+    <!-- JS file -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

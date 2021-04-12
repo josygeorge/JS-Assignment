@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma, Verdana, Helvetica,  Arial, sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+/* Header styling */
+header, footer {
+    background-color: #f9dcdc;
+}
+
+nav {
+    max-width: 900px;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+}
+
+nav a {
+    color:#2a3b53;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 10px;
+    padding: 2px 6px;
+    border-bottom: 1px solid #f9dcdc;
+}
+
+nav a:hover {
+    color: rgb(51, 1, 1);
+    border-bottom: 1px solid #000e4f;
+    
+}
+
+
+/* Styling main content */
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+#membership-form, #excel-form, .title {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.title {
+    text-align: center;
+}
+fieldset {
+    padding: 20px;
+}
+input[type=text], input[type=email] {
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.membership-select-area {
+    margin-top: 18px;
+}
+input[type=radio] {
+    margin: 8px 0;
+}
+input[value="Send"] {
+    color: #126196;
+    background-color: #ffffff;
+    font: 14px Verdana;
+    padding: 14px 20px;
+    border: 1px solid #126196;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    color: rgb(43, 39, 39);
+    background-color: #fcc7d2;
+    font: 14px Verdana;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(43, 39, 39);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[value="Send"]:hover {
+    background-color: rgba(18,97,150,0.75);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+input[type=reset]:hover {
+    background-color: rgba(252,199,210,0.5);
+}
+
+/* styling excel content */
+.excel-container {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#calc-btn {
+    background-color: #b6bde0;
+    color: rgb(12, 40, 48);
+    font: 14px Verdana;
+    padding: 10px 18px;
+    margin: 12px 0;
+    border: 1px solid #b6bde0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calc-btn:hover {
+    color: #b6bde0;
+    background-color: rgba(12, 40, 48,0.7);
+}
+
+.user-result {
+    border: 1px solid #80afce; 
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+    width: 100%;
+    background-color: #f9eefa;
+}
+tr, td {
+    border: 1px solid #80afce; 
+    padding: 6px 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0px;
+    color:#0052cd;
+}
