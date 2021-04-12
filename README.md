@@ -2,8 +2,8 @@
 
 <!-- PROJECT INTRO -->
 <br />
-<p align="center">
-  <h3>JS Assignment - 2021 FSSD Jan - Aug Batch</h3>
+<p>
+  <h3 align="center">JS Assignment - 2021 FSSD Jan - Aug Batch</h3>
 
   <p align="center">
     This assignment will be a demonstration of your skills in using HTML form elements, CSS, and some of the JavaScript main topics
