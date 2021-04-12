@@ -1,6 +1,6 @@
-# User Centric Frontend Development
+# JS Assignment
 
-<!-- PROJECT INTRO -->
+<!-- ASSIGNMENT INTRO -->
 <br />
 <p>
   <h3 align="center">JS Assignment - 2021 FSSD Jan - Aug Batch</h3>

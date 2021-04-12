@@ -103,14 +103,20 @@ input[value="Send"]:hover {
 input[type=reset]:hover {
     background-color: rgba(252,199,210,0.5);
 }
-
-/* styling excel content */
-.excel-container {
-    background-color: #f2f2f2;
+.user-result {
+    border: 1px solid #80afce; 
     border-radius: 5px;
-    padding: 20px;
+    letter-spacing: 0.1rem;
+    width: 100%;
+    background-color: #f9eefa;
+}
+tr, td {
+    border: 1px solid #80afce; 
+    padding: 6px 10px;
 }
 
+
+/* styling excel content */
 #calc-btn {
     background-color: #b6bde0;
     color: rgb(12, 40, 48);
@@ -126,17 +132,12 @@ input[type=reset]:hover {
     color: #b6bde0;
     background-color: rgba(12, 40, 48,0.7);
 }
-
-.user-result {
-    border: 1px solid #80afce; 
-    border-radius: 5px;
+.finalCalcOutput {
+    padding: 10px 5px;
+    margin-bottom: 15px;
+    font: 600 14px Verdana;
     letter-spacing: 0.1rem;
     width: 100%;
-    background-color: #f9eefa;
-}
-tr, td {
-    border: 1px solid #80afce; 
-    padding: 6px 10px;
 }
 
 footer {
