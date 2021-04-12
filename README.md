@@ -10,7 +10,7 @@
     <br />
     <br />
     <h3 align="center">
-        <a href="https://josygeorge.github.io/User-Centric-Frontend-Development/">View Demo</a>
+        <a href="https://josygeorge.github.io/JS-Assignment/">View Demo</a>
     </h3>
   </p>
 </p>
@@ -39,11 +39,11 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
+<!-- ABOUT THE Assignment -->
 
-## About The Project
+## About The Assignment
 
-[Live Project URL](https://josygeorge.github.io/User-Centric-Frontend-Development/)
+[Live Assignment URL](https://josygeorge.github.io/JS-Assignment/)
 
 This assignment will be a demonstration of your skills in using HTML form elements, CSS, and some of the JavaScript main topics that include:
 
@@ -171,7 +171,7 @@ Distributed under the GIT License. See `LICENSE` for more information.
 
 Josy George - [@github](https://github.com/josygeorge/)
 
-Project Link: [User-Centric-Frontend-Development](https://github.com/josygeorge/User-Centric-Frontend-Development)
+Project Link: [JS Assignment](https://josygeorge.github.io/JS-Assignment/)
 
 <!-- ACKNOWLEDGEMENTS -->
 

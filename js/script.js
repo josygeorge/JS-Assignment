@@ -68,7 +68,6 @@ function findResult() {
         for (let j = 0; j < userInputStrArray.length; j++) {
             userNumberArray.push(parseFloat(userInputStrArray[j]));
         }
-        console.log(userNumberArray);
 
         let result;
         /* Autosum */
