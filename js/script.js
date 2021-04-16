@@ -1,3 +1,6 @@
+/*****************************************************************
+ *                  HOME - USER MEMEBERSHIP
+*****************************************************************/
 function userForm() {
 
     let firstName = document.getElementById('first-name').value;
@@ -51,9 +54,9 @@ function userForm() {
 
 /*****************************************************************
  *                  EXCEL FUNCTIONS
- *****************************************************************/
+*****************************************************************/
 
-// Our pure JS code
+// Function to Calculate the excel operations
 function myExcelFuns() {
     let numberStr = document.getElementById("numbers").value;
     console.log(numberStr);
@@ -62,7 +65,6 @@ function myExcelFuns() {
         return;
     }
     // checking for whether input as numbers
-    //else if (numberStr.match(/[0-9 ]+/g)) {
     else if (numberStr.match(/^[0-9 ]+$/g)) {
         numberStr = numberStr.trim();
         let numberArr = numberStr.split(" ");
@@ -111,11 +113,12 @@ function myExcelFuns() {
         finalOutput = `<p class="finalCalcOutput">The result is: ${result}</p>`;
         document.getElementById("calc-result").innerHTML = finalOutput;
     }
-    else { // else if nothing is typed
-        alert("Please check whether the input has numbers with spaces!");
+    else { // popup message to show if the input has one NaN
+        alert("Please check whether the input has numbers!");
     }
 
 }
+//Function to clear the input field, result block and reset radio controls
 function clearFunc() {
     document.getElementById('numbers').innerHTML = '';
     document.getElementById("calc-result").style.display = 'none';
