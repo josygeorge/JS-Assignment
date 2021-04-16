@@ -122,7 +122,7 @@ tr, td {
     color: rgb(12, 40, 48);
     font: 14px Verdana;
     padding: 10px 18px;
-    margin: 12px 0;
+    margin: 6px 0;
     border: 1px solid #b6bde0;
     border-radius: 5px;
     cursor: pointer;
@@ -132,14 +132,26 @@ tr, td {
     color: #b6bde0;
     background-color: rgba(12, 40, 48,0.7);
 }
+#clear-btn {
+    background-color: #9eca6c;
+    color: rgb(12, 40, 48);
+    font: 14px Verdana;
+    padding: 10px 18px;
+    margin: 6px 0;
+    border: 1px solid #b6bde0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#clear-btn:hover {
+    background-color: #9eca6c;
+    opacity: 0.85;
+}
 .finalCalcOutput {
     padding: 10px 5px;
-    margin-bottom: 15px;
     font: 600 14px Verdana;
     letter-spacing: 0.1rem;
     width: 100%;
 }
-
 footer {
     text-align: center;
     padding: 10px 0px;

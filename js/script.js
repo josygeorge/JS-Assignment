@@ -47,34 +47,38 @@ function userForm() {
     else {
         alert('All fields are required!')
     }
-
 }
-
 
 /*****************************************************************
  *                  EXCEL FUNCTIONS
  *****************************************************************/
 
 // Our pure JS code
-function findResult() {
-    let userInputStr = document.getElementById("numbers").value;
-
-    if (userInputStr) {
-        userInputStr = userInputStr.trim();
-        let userInputStrArray = userInputStr.split(" ");
+function myExcelFuns() {
+    let numberStr = document.getElementById("numbers").value;
+    console.log(numberStr);
+    if (numberStr.length == 0) {
+        alert("Please input your numbers with spaces!");
+        return;
+    }
+    // checking for whether input as numbers
+    //else if (numberStr.match(/[0-9 ]+/g)) {
+    else if (numberStr.match(/^[0-9 ]+$/g)) {
+        numberStr = numberStr.trim();
+        let numberArr = numberStr.split(" ");
 
         /*Converting str arr to numeric array*/
-        let userNumberArray = [];
-        for (let j = 0; j < userInputStrArray.length; j++) {
-            userNumberArray.push(parseFloat(userInputStrArray[j]));
+        let finalNumericArray = [];
+        for (let j = 0; j < numberArr.length; j++) {
+            finalNumericArray.push(parseFloat(numberArr[j]));
         }
 
         let result;
         /* Autosum */
         if (document.getElementById("autosum").checked) {
             result = 0;
-            for (let i = 0; i < userNumberArray.length; i++) {
-                result += userNumberArray[i];
+            for (let i = 0; i < finalNumericArray.length; i++) {
+                result += finalNumericArray[i];
             }
         }
         /* Average */
@@ -82,31 +86,38 @@ function findResult() {
 
             //find the total sum
             let sum = 0;
-            for (let i = 0; i < userNumberArray.length; i++) {
-                sum += userNumberArray[i];
+            for (let i = 0; i < finalNumericArray.length; i++) {
+                sum += finalNumericArray[i];
             }
             // find the average
-            result = (sum / userNumberArray.length).toFixed(2);
+            result = (sum / finalNumericArray.length).toFixed(2);
         }
         /* Max */
         else if (document.getElementById("max").checked) {
-            result = Math.max(...userNumberArray);
+            result = Math.max(...finalNumericArray);
         }
         /* Min */
         else if (document.getElementById("min").checked) {
             /*Method 1 */
             //Sort numbers in an array in ascending order
-            userNumberArray.sort(function (a, b) { return a - b });
+            finalNumericArray.sort(function (a, b) { return a - b });
             // Print the first element with 0th index for the lowest number
-            result = userNumberArray[0];
+            result = finalNumericArray[0];
 
             /* OR Method 2 - using Math function and spread operator */
             //result = Math.min(...userNumberArray);
         }
+        document.getElementById("calc-result").style.display = 'block';
         finalOutput = `<p class="finalCalcOutput">The result is: ${result}</p>`;
         document.getElementById("calc-result").innerHTML = finalOutput;
     }
     else { // else if nothing is typed
-        alert("Please input your numbers with spaces!");
+        alert("Please check whether the input has numbers with spaces!");
     }
+
+}
+function clearFunc() {
+    document.getElementById('numbers').innerHTML = '';
+    document.getElementById("calc-result").style.display = 'none';
+    document.getElementById("autosum").checked;
 }
