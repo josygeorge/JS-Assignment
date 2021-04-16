@@ -101,7 +101,9 @@ input[value="Send"]:hover {
 }
 
 input[type=reset]:hover {
-    background-color: rgba(252,199,210,0.5);
+    background-color: rgb(43, 39, 39);
+    color: rgba(252,199,210);
+    border: 1px solid rgba(252,199,210);
 }
 .user-result {
     border: 1px solid #80afce; 
@@ -109,6 +111,7 @@ input[type=reset]:hover {
     letter-spacing: 0.1rem;
     width: 100%;
     background-color: #f9eefa;
+    margin-bottom: 6px;
 }
 tr, td {
     border: 1px solid #80afce; 
