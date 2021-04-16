@@ -62,10 +62,10 @@ This assignment will be a demonstration of your skills in using HTML form elemen
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-- [CSS3](https://www.w3schools.com/css/)
 - [HTML5](https://www.w3schools.com/html/)
+- [CSS3](https://www.w3schools.com/css/)
 - [JS Fundamentals](https://www.w3schools.com/js/)
-- [JS functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#defining_functions)
+- [JS Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#defining_functions)
 - [JS Arrays and Iterations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 <!-- GETTING STARTED -->
