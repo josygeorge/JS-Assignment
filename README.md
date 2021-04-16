@@ -64,7 +64,9 @@ This section should list any major frameworks that you built your project using.
 
 - [CSS3](https://www.w3schools.com/css/)
 - [HTML5](https://www.w3schools.com/html/)
-- [JS Functions](https://www.bootstrapcdn.com/fontawesome/)
+- [JS Fundamentals](https://www.w3schools.com/js/)
+- [JS functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#defining_functions)
+- [JS Arrays and Iterations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 <!-- GETTING STARTED -->
 
@@ -171,7 +173,7 @@ Distributed under the GIT License. See `LICENSE` for more information.
 
 Josy George - [@github](https://github.com/josygeorge/)
 
-Project Link: [JS Assignment](https://josygeorge.github.io/JS-Assignment/)
+Assignment Link: [JS Assignment](https://josygeorge.github.io/JS-Assignment/)
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -179,3 +181,4 @@ Project Link: [JS Assignment](https://josygeorge.github.io/JS-Assignment/)
 
 - [GitHub Pages](https://pages.github.com)
 - [W3 Schools](https://www.w3schools.com/js/js_functions.asp)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
