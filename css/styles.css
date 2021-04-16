@@ -111,7 +111,7 @@ input[type=reset]:hover {
     letter-spacing: 0.1rem;
     width: 100%;
     background-color: #f9eefa;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
 tr, td {
     border: 1px solid #80afce; 
